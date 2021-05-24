@@ -152,3 +152,25 @@
     width: 100%;
     height: 92vh;
 }
+.aside-page {
+    margin: 10px 3%;
+}
+
+.temas-de-interes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap : 50px;
+}
+
+.tema-interes {
+    /* background-color: red; */
+    padding : 10px;
+    display: flex;
+    align-items: center;
+    gap : 10px;
+    border-right: solid 3px var(--primary);
+}
+
+.tema-interes:nth-child(4n){
+    border-right: 0;
+}
